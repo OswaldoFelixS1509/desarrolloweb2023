@@ -1,0 +1,44 @@
+.Login-Square{
+    margin: auto;
+    margin-top: 8%;
+    width: 500px;
+    height: 300px;
+    border-radius: 40px;
+    background: rgba(4, 16, 126, 0.63);
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.login{
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    text-indent: 10px;
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+.button-login{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 200px;
+    height: 48px;
+    background-color: #071590;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+}
+.icon-login{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    top: 4%;
+    margin-left: 43%;
+    margin-right: 43%;
+    border-radius: 120px;
+}
+.big-profile{
+    height: 100%;
+}

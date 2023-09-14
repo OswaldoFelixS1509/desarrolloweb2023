@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(180.52deg, #002C9C 0.45%, rgba(217, 217, 217, 0) 268.37%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
