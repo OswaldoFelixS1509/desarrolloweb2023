@@ -5,7 +5,7 @@
         
     ?>
     <body>
-        <header class="header">
+        <!-- <header class="header">
         <div class="profilePicture">
                 <img src="images/person_icon.png" class="pfp" alt="">
             </div>
@@ -22,7 +22,11 @@
                 </div>
                 
             </div>
-        </header>
+        </header> -->
+
+        <div class="menu" id="menu">
+          text
+        </div>
         
       </body>
 </html>
