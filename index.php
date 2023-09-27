@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
     <?php
-        include "layout/head.inc";
+        include "layout/index_head.inc";
+        include_once("models/user.php");
+        session_start();
+        print_r($_SESSION['loggedUser']->getNombre()) ;
     ?>
     <body>
         <header class="header">
-          <nav class="nav nav-pills flex-column flex-sm-row w-100">
-            <a class="flex col-4 text-sm  ps-3">
-              <img src="images/person_icon.png" class="pfp" alt="">
-            </a>
-            <a class="flex col-4 text-sm-center my-auto" >
-              Usuario
-            </a>
-            <a class="flex col-4 text-sm-center " >BIENVENIDO</a>
-            <a class="flex col-4 text-sm-center " aria-disabled="true">Disabled</a>
-          </nav>
-            
-        </header>
         <div class="profilePicture">
                 <img src="images/person_icon.png" class="pfp" alt="">
             </div>
@@ -33,5 +24,7 @@
                 </div>
                 
             </div>
+        </header>
+        
       </body>
 </html>

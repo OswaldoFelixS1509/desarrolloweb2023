@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="css/layout.css" rel="stylesheet" />
-        <link href="css/changePassword.css" rel="stylesheet" />
+        <link href="../css/layout.css" rel="stylesheet" />
+        <link href="../css/changePassword.css" rel="stylesheet" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <script src="js/app.js"> </script>
+        <script src="../js/app.js"> </script>
     </head>
     <body>
        <div>
