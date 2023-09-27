@@ -1,3 +1,9 @@
+<?php
+    include_once(dirname(__DIR__)."/models/user.php");
+    session_start();
+?>
+
+
 
 <head>
     <meta charset="UTF-8">

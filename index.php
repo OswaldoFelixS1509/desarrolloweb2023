@@ -2,9 +2,7 @@
 <html lang="es">
     <?php
         include "layout/index_head.inc";
-        include_once("models/user.php");
-        session_start();
-        print_r($_SESSION['loggedUser']->getNombre()) ;
+        
     ?>
     <body>
         <header class="header">
