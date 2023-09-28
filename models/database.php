@@ -13,7 +13,7 @@
 
             if($this->connection->connect_error)
             {
-                die("Conexion fallida: " . $this->connection->$conn->connect_error);
+                die("Conexion fallida: " . $this->connection->connect_error);
             }
         }
 
